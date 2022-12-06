@@ -85,17 +85,36 @@
 
 - 구현
 
- -. Saga (Pub / Sub)
-    고객이 order에서 주문을 하면 store는 주문이 접수됨을 확인한다.
+  - Saga (Pub / Sub) :
+    - 고객이 order에서 주문을 하면 store는 주문이 접수됨을 확인한다.
 
-     - 접수 소스
-       ![접수_소스](https://user-images.githubusercontent.com/117880601/205802536-3426d2ee-c321-49a2-b3b1-504752743ebd.PNG)
+    - 접수 소스코드
+      - ![접수_소스](https://user-images.githubusercontent.com/117880601/205803641-2c715cc3-328a-479a-ba3c-056184c12a1a.PNG)
 
-     - 테스트 : 주문
-       ![주문_order](https://user-images.githubusercontent.com/117880601/205802710-475e91a8-08fa-43b9-b102-41d3696e9814.PNG)
 
-     - 테스트 : 접수
-       ![주문_store](https://user-images.githubusercontent.com/117880601/205802789-fbf5235e-4d38-4b09-a0d7-589f84075a54.PNG)
+    - 주문하기
+      - ![주문_order](https://user-images.githubusercontent.com/117880601/205802710-475e91a8-08fa-43b9-b102-41d3696e9814.PNG)
+
+
+    - 상점 접수확인
+      - ![주문_store](https://user-images.githubusercontent.com/117880601/205804026-b4ae592f-22ad-4647-a58f-0f8144a12477.PNG)
+
+  - CQRS :
+    - 주문정보가 변경될 때마다 고객은 MyPage에서 변경된 상태 정보를 조회한다.
+
+    - ReadModel 속성
+      - ![CQRS_이미지2](https://user-images.githubusercontent.com/117880601/205804669-292f7d62-f10d-4c0f-b552-b90fc3a9c0b3.PNG)
+
+    - ReadModel 소스
+      - ![CQRS_소스_이미지2](https://user-images.githubusercontent.com/117880601/205804725-8c5bd735-efa3-45ed-abf5-c34041df6787.PNG)
+
+    - 주문하기
+      - ![CQRS_실행_이미지1-1](https://user-images.githubusercontent.com/117880601/205804857-aa9b7110-fbd6-40c2-8ad3-2cc9e32b023e.PNG)
+
+    - 마이페이지 확인
+      - ![CQRS_실행_이미지2](https://user-images.githubusercontent.com/117880601/205804984-38d30030-e4fd-46b7-b161-d4499b1f2030.PNG)
+
+
 
 
 
