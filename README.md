@@ -136,7 +136,30 @@
       - ![3_실행_4](https://user-images.githubusercontent.com/117880601/205805652-4bf6b3de-db0e-438c-bdaa-d1ac3c81e087.PNG)
 
   - Request / Response :
-    - ..
+    - 주문을 할때 결제 정보를 Request / Response 방식으로 변경하여 수행
+
+    - Pay Domain 속성 수정
+      - ![image](https://user-images.githubusercontent.com/117880601/205825192-b7627cbb-53a2-47f2-b398-ed8eab2e0af7.png)
+
+    - Order 소스 수정
+      - ![4_소스_주문](https://user-images.githubusercontent.com/117880601/205825279-ffbb0a72-1b11-4b1d-9e6e-9688bc433384.PNG)
+
+    - 결제 Controller 소스 수정
+      - ![4_소스_결제_Controller](https://user-images.githubusercontent.com/117880601/205825375-18c45a0a-a1d9-4907-880b-9b0cda0d4724.PNG)
+
+    - 결제 Domain 소스 수정
+      - ![4_소스_결제_Domain](https://user-images.githubusercontent.com/117880601/205825437-425c3c79-f77c-4caa-9db1-f61ab3750098.PNG)
+
+    - 주문 실행
+      - ![4_주문_1](https://user-images.githubusercontent.com/117880601/205825561-440f3cca-8fe4-4787-a651-3bf55c6980f5.PNG)
+
+    - 결제 컨테이너가 정상일 경우
+      - ![4_실행_정상](https://user-images.githubusercontent.com/117880601/205825685-23e291fb-c2be-466b-a66c-c7767a8e0e37.PNG)
+
+    - 결제 컨테이너가 비정상일 경우 주문 시 에러
+      - ![4_실행_주문_에러](https://user-images.githubusercontent.com/117880601/205825756-d9f46d82-c9e0-46c0-be06-ce2214ffb7d1.PNG)
+    
+    
 
   - Circuit Breaker
     - ..
