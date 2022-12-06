@@ -114,6 +114,46 @@
     - 마이페이지 확인
       - ![CQRS_실행_이미지2](https://user-images.githubusercontent.com/117880601/205804984-38d30030-e4fd-46b7-b161-d4499b1f2030.PNG)
 
+  - Compensation / Correlation :
+    - 주문을 한 후 취소를 한다.
+
+    - 주문시 상점 접수 소스
+      - ![3_소스_1](https://user-images.githubusercontent.com/117880601/205805302-aa477388-86af-4237-a7a6-c0162444f0c4.PNG)
+
+    - 취소 상점 취소 소스
+      - ![3_소스_2](https://user-images.githubusercontent.com/117880601/205805370-51158218-cf6b-497a-a00e-4330f33a6bdf.PNG)
+
+    - 주문 실행
+      - ![3_실행_1](https://user-images.githubusercontent.com/117880601/205805465-1cf978d0-c51e-48ac-8372-f682455909e5.PNG)
+
+    - 상점 접수 확인
+      - ![3_실행_2](https://user-images.githubusercontent.com/117880601/205805496-8e341f64-3b8c-4dbd-aef9-d9f7957a320e.PNG)
+
+    - 취소 실행
+      - ![3_실행_3](https://user-images.githubusercontent.com/117880601/205805584-9e3bb5e4-1736-41c5-84f2-3620d3695184.PNG)
+
+    - 취소 후 상점 확인
+      - ![3_실행_4](https://user-images.githubusercontent.com/117880601/205805652-4bf6b3de-db0e-438c-bdaa-d1ac3c81e087.PNG)
+
+  - Request / Response :
+    - ..
+
+  - Circuit Breaker
+    - ..
+
+  - Gateway / Ingress :
+    - gateway 의 application.yml 파일 설정으로 Gateway를 통하여 컨테이너를 호출한다.
+
+    - Gateway 설정 확인
+      - ![6_설정_!](https://user-images.githubusercontent.com/117880601/205806027-0775e622-6fa3-423a-b6d6-9816d07411fe.PNG)
+
+    - Gateway를 통하여 order 컨터이너 호출
+      - ![6_실행_1](https://user-images.githubusercontent.com/117880601/205806113-e7223211-b23e-4341-b603-eda59415ced0.PNG)
+
+    - order 컨테이너를 직접 호출하여 주문 상태를 확인
+      - ![6_실행_2](https://user-images.githubusercontent.com/117880601/205806161-a8f46cfa-e086-4632-ae65-ded891a68e18.PNG)
+    
+
 
 
 
