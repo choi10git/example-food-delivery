@@ -85,17 +85,17 @@
 
 - 구현
 
-1. Saga (Pub / Sub)
-고객이 order에서 주문을 하면 store는 주문이 접수됨을 확인한다.
+ -. Saga (Pub / Sub)
+    고객이 order에서 주문을 하면 store는 주문이 접수됨을 확인한다.
 
-- 접수 소스
-![접수_소스](https://user-images.githubusercontent.com/117880601/205802536-3426d2ee-c321-49a2-b3b1-504752743ebd.PNG)
+     - 접수 소스
+       ![접수_소스](https://user-images.githubusercontent.com/117880601/205802536-3426d2ee-c321-49a2-b3b1-504752743ebd.PNG)
 
-- 테스트 : 주문
-- ![주문_order](https://user-images.githubusercontent.com/117880601/205802710-475e91a8-08fa-43b9-b102-41d3696e9814.PNG)
+     - 테스트 : 주문
+       ![주문_order](https://user-images.githubusercontent.com/117880601/205802710-475e91a8-08fa-43b9-b102-41d3696e9814.PNG)
 
-- 테스트 : 접수
-- ![주문_store](https://user-images.githubusercontent.com/117880601/205802789-fbf5235e-4d38-4b09-a0d7-589f84075a54.PNG)
+     - 테스트 : 접수
+       ![주문_store](https://user-images.githubusercontent.com/117880601/205802789-fbf5235e-4d38-4b09-a0d7-589f84075a54.PNG)
 
 
 
