@@ -162,7 +162,22 @@
     
 
   - Circuit Breaker
-    - ..
+    - story 컨테이너가 중지 되어 있을 때 주문 취소 시 조리중으로 표현한다.
+
+    - 서킷브레이커_설정
+      - ![서킷브레이커_설정](https://user-images.githubusercontent.com/117880601/205855732-fa7b9ef0-f0f3-4a55-bed1-0cbb3959ff06.PNG)
+
+    - 서킷브레이커_스토어_딜레이
+      - ![서킷브레이커_스토어_딜레이](https://user-images.githubusercontent.com/117880601/205855802-f159c04e-7b86-4825-b8b8-bac143d9b526.PNG)
+
+    - 서킷브레이커_주문취소_에러 생성
+      - ![서킷브레이커_주문취소_에러발생](https://user-images.githubusercontent.com/117880601/205855885-388570c2-4b58-4503-aa62-cd801d4e4ac5.PNG)
+
+    - 서킷브레이커_페일백설정
+      - ![서킷브레이커_폐일백설정](https://user-images.githubusercontent.com/117880601/205856061-34799fe2-6a1a-4153-8436-b74c5262623b.PNG)
+
+    - 서킷브레이커_페일백파일추가
+      - ![서킷브레이커_페일백파일추가](https://user-images.githubusercontent.com/117880601/205855985-204e2ca2-fc8d-4c67-b308-8744a2131de9.PNG)
 
   - Gateway / Ingress :
     - gateway 의 application.yml 파일 설정으로 Gateway를 통하여 컨테이너를 호출한다.
