@@ -81,7 +81,7 @@
     - 설계 결과에 따른 헥사고날 아키텍처 다이어그램을 제대로 그렸는가?
 ![image](https://user-images.githubusercontent.com/117880601/206364771-4b676cbf-e230-45ad-b21f-79a2ef8c3edf.png)
 
-![image](https://user-images.githubusercontent.com/117880601/205801295-81ca6439-011a-4149-b2ad-fe5a3eea4e6b.png)
+
 
 
 - 구현
